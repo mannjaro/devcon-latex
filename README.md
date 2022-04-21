@@ -18,4 +18,4 @@ Use Templateしてクローンしたリポジトリに対してReopen in Contain
 
 ### License
 
-[MIT](https://github.com/kotabrog/ft_mini_ls/blob/main/LICENSE)
+[MIT](https://github.com/mannjaro/devcon-latex/blob/main/LICENSE)
