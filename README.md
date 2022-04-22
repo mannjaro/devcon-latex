@@ -1,4 +1,7 @@
+
 # DockerとVSCodeによるLaTeX環境構築
+
+<img src="https://user-images.githubusercontent.com/39473663/164606040-03756b8f-dbe3-4bf2-b204-3bb74352b1c1.gif" width="600">
 
 ## これは何？
 
