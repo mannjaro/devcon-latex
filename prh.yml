@@ -1,0 +1,9 @@
+version: 1
+rules:
+  # Githubやgithubを修正する
+  - expected: GitHub
+  # ピリオドとカンマを修正
+  - expected: ．
+    pattern: /[。｡]/g
+  - expected: ，
+    pattern: /[、､]/g

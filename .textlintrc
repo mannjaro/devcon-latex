@@ -1,0 +1,50 @@
+{
+  "plugins": [
+    "latex2e"
+  ],
+  "filters": {
+    "comments": true,
+    "whitelist": {
+      "allow": [
+        "github.com"
+      ]
+    }
+  },
+  "rules": {
+    "ja-no-mixed-period": {
+      "periodMark": "。",
+      "allowPeriodMarks": [],
+      "allowEmojiAtEnd": false,
+      "forceAppendPeriod": true
+    },
+    "no-doubled-joshi": {
+      "min_interval" : 1,
+      "strict": false,
+      "allow": ["も","や"],
+      "separatorCharacters": [
+          ".", "．", "。", "」"
+      ],
+      "commaCharacters": [
+          "，", "、"
+      ]
+    },
+    "no-mix-dearu-desumasu": {
+      "preferInHeader": "である",
+      "preferInBody": "である",
+      "preferInList": "である",
+      "strict": true
+    },
+    "preset-ja-engineering-paper": true,
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "periodMark": "．"
+      }
+    },
+    "preset-jtf-style": true,
+    "prh": {
+      "rulePaths" :["prh.yml"]
+    },
+    "spellcheck-tech-word": true
+  }
+}
