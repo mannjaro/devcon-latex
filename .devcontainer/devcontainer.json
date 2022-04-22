@@ -62,7 +62,8 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"James-Yu.latex-workshop"
+		"James-Yu.latex-workshop",
+		"taichi.vscode-textlint"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
