@@ -16,17 +16,17 @@ $dvipdf = 'dvipdfmx %O -o %D %S';
 $pdf_mode = 3;
 
 # Preview
-$pvc_view_file_via_temporary = 0;
-if ($^O eq 'linux') {
-    $dvi_previewer = "xdg-open %S";
-    $pdf_previewer = "xdg-open %S";
-} elsif ($^O eq 'darwin') {
-    $dvi_previewer = "open %S";
-    $pdf_previewer = "open %S";
-} else {
-    $dvi_previewer = "start %S";
-    $pdf_previewer = "start %S";
-}
+# $pvc_view_file_via_temporary = 0;
+# if ($^O eq 'linux') {
+#     $dvi_previewer = "xdg-open %S";
+#     $pdf_previewer = "xdg-open %S";
+# } elsif ($^O eq 'darwin') {
+#     $dvi_previewer = "open %S";
+#     $pdf_previewer = "open %S";
+# } else {
+#     $dvi_previewer = "start %S";
+#     $pdf_previewer = "start %S";
+# }
 
 # Clean up
 $clean_full_ext = '%R.synctex.gz'
