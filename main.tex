@@ -1,0 +1,25 @@
+\documentclass{jsarticle}
+
+\usepackage{subfiles}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{listings,jlistings}
+
+\lstset{
+    frame=single,
+    numbers=left,
+    tabsize=4,
+    basicstyle=\ttfamily,
+    numberstyle=\scriptsize,
+    commentstyle={\small\ttfamily \color[gray]{.5}},
+}
+
+\title{分割した{\LaTeX}ファイルを\texttt{subfiles}を使ってコンパイルする}
+
+\begin{document}
+
+\maketitle
+
+\subfile{sections/body}
+
+
+\end{document}

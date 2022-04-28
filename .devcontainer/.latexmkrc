@@ -1,8 +1,8 @@
 #!/usr/local/bin/perl
 
 # LaTeX
-$latex = 'uplatex -synctex=1 -halt-on-error -file-line-error %O %S';
-$max_repeat = 5;
+$latex = 'platex -synctex=1 -halt-on-error -file-line-error %O %S';
+$max_repeat = 3;
 
 # BibTeX
 $bibtex = 'pbibtex %O %S';

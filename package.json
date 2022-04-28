@@ -2,8 +2,8 @@
   "name": "my-textlint",
   "version": "0.0.1",
   "scripts": {
-    "lint": "textlint \"src/**/*.tex\"",
-    "fix": "textlint --fix \"src/**/*.tex\""
+    "lint": "textlint \"**/*.tex\"",
+    "fix": "textlint --fix \"**/*.tex\""
   },
   "devDependencies": {
     "textlint": "^12.1.1",

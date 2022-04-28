@@ -39,11 +39,11 @@ jobs:
           github_token: ${{ secrets.github_token }}
           level: warning
           reporter: github-check
-          textlint_flags: "src/**"
+          textlint_flags: "./**"
       
       - name: textlint-github-review
         uses: tsuyoshicho/action-textlint@v3
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
-          textlint_flags: "src/**"
+          textlint_flags: "./**"

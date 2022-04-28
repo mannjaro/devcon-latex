@@ -1,0 +1,17 @@
+%! TEX root = ../main.tex
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{\texttt{subfiles}を用いたファイル分割}
+
+\texttt{subfiles}を用いると，プリアンブルを共有したうえで，分割した{\LaTeX}ファイルを個別にコンパイルできる．
+
+おまじないを先頭につける．
+\begin{lstlisting}
+%! TEX root = ../main.tex
+\documentclass[main.tex]{subfiles}    
+\end{lstlisting}
+
+
+\end{document}

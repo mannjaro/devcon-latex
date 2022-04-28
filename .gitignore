@@ -1,4 +1,4 @@
-out/*.dvi
-out/*.synctex.gz
+*.dvi
+*.synctex.gz
 .DS_STORE
 node_modules/

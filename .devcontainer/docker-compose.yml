@@ -9,3 +9,5 @@ services:
       - ./.latexmkrc:/root/.latexmkrc
     command: >
       sh -c 'npm i -D && sleep infinity'
+    tty:
+      true
