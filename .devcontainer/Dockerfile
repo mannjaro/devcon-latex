@@ -3,7 +3,7 @@ FROM paperist/texlive-ja:latest
 WORKDIR /workspace
 
 RUN apt update && apt -y upgrade && \
-    apt install -y curl gcc g++ make && \
+    apt install -y curl gcc g++ make texlive-extra-utils && \
     apt-get clean && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
